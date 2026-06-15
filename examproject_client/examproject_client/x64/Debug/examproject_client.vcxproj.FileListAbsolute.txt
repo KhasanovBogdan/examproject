@@ -1,0 +1,2 @@
+C:\Users\Hudaynazar\source\repos\examproject_client\x64\Debug\examproject_client.exe.lastcodeanalysissucceeded
+C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\x64\Debug\NativeCodeAnalysis.read.1.tlog

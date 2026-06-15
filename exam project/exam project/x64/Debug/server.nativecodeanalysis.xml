@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\exam project\exam project\</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "lstrcpynA".</DESCRIPTION>
+    <FUNCTION>client_thread</FUNCTION>
+    <DECORATED>?client_thread@@YAKPEAX@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\exam project\exam project\</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "lstrcpynA".</DESCRIPTION>
+    <FUNCTION>client_thread</FUNCTION>
+    <DECORATED>?client_thread@@YAKPEAX@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\exam project\exam project\</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>136</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "lstrcpynA".</DESCRIPTION>
+    <FUNCTION>client_thread</FUNCTION>
+    <DECORATED>?client_thread@@YAKPEAX@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\exam project\exam project\</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "lstrcpynA".</DESCRIPTION>
+    <FUNCTION>client_thread</FUNCTION>
+    <DECORATED>?client_thread@@YAKPEAX@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\exam project\exam project\</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "lstrcpynA".</DESCRIPTION>
+    <FUNCTION>client_thread</FUNCTION>
+    <DECORATED>?client_thread@@YAKPEAX@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\exam project\exam project\</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>192</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "WSAStartup".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>190</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,5 @@
+﻿  client.cpp
+  examproject_client.vcxproj -> C:\Users\Hudaynazar\source\repos\examproject_client\x64\Debug\examproject_client.exe
+C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\client.cpp(29): warning C28112: Обращение к переменной (g_running), доступ к которой возможен только через функцию с модификатором Interlocked, должно выполняться через такую функцию. См. строку 34: обращение к переменной, поддерживающей доступ только через функции семейства Interlocked*, каким-либо другим способом может приводить к проблемам безопасности.
+C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\client.cpp(54): warning C6031: Возвращаемое значение пропущено: "WSAStartup".
+C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\client.cpp(79): warning C28112: Обращение к переменной (g_running), доступ к которой возможен только через функцию с модификатором Interlocked, должно выполняться через такую функцию. См. строку 87: обращение к переменной, поддерживающей доступ только через функции семейства Interlocked*, каким-либо другим способом может приводить к проблемам безопасности.

@@ -1,0 +1,126 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28112",
+          "message": {
+            "text": "Обращение к переменной (g_running), доступ к которой возможен только через функцию с модификатором Interlocked, должно выполняться через такую функцию. См. строку 34: обращение к переменной, поддерживающей доступ только через функции семейства Interlocked*, каким-либо другим способом может приводить к проблемам безопасности."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/hudaynazar/source/repos/exam project/exam project/client.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hudaynazar/source/repos/exam project/exam project/client.cpp"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "recv_thread",
+                  "decoratedName": "?recv_thread@@YAKPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Возвращаемое значение пропущено: \"WSAStartup\"."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/hudaynazar/source/repos/exam project/exam project/client.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hudaynazar/source/repos/exam project/exam project/client.cpp"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 5,
+                  "endLine": 54,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28112",
+          "message": {
+            "text": "Обращение к переменной (g_running), доступ к которой возможен только через функцию с модификатором Interlocked, должно выполняться через такую функцию. См. строку 87: обращение к переменной, поддерживающей доступ только через функции семейства Interlocked*, каким-либо другим способом может приводить к проблемам безопасности."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/hudaynazar/source/repos/exam project/exam project/client.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hudaynazar/source/repos/exam project/exam project/client.cpp"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35217.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/hudaynazar/source/repos/exam project/exam project/client.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b653e4458281cb99e466ba874bc78b5d475db355d41367a2bc3fb993fe157a80"
+          }
+        }
+      ]
+    }
+  ]
+}

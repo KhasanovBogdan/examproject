@@ -1,0 +1,18 @@
+[2026-06-15 13:43:56] === Server zapushhen na portu 12345 (maks. klientov: 5) ===
+[2026-06-15 13:43:56] Ozhidayu podklyucheniy...
+[2026-06-15 13:45:19] Novoe podklyuchenie -> ID: 2
+[2026-06-15 13:45:28] K chatu prisoedinilsya 'hasanov' (ID: 2).
+[2026-06-15 13:48:20] Novoe podklyuchenie -> ID: 3
+[2026-06-15 13:48:31] K chatu prisoedinilsya 'merdanow ' (ID: 3).
+[2026-06-15 13:48:44] Novoe podklyuchenie -> ID: 4
+[2026-06-15 13:49:00] K chatu prisoedinilsya 'wanya' (ID: 4).
+[2026-06-15 13:51:00] Novoe podklyuchenie -> ID: 5
+[2026-06-15 13:51:19] K chatu prisoedinilsya 'semyon' (ID: 5).
+[2026-06-15 13:51:50] Novoe podklyuchenie -> ID: 6
+[2026-06-15 13:51:57] K chatu prisoedinilsya 'Bogdan' (ID: 6).
+[2026-06-15 13:53:43] Otklyuchilsya 'Bogdan' (ID: 6).
+[2026-06-15 13:56:47] Otklyuchilsya 'hasanov' (ID: 2).
+[2026-06-15 13:56:47] Otklyuchilsya 'wanya' (ID: 4).
+[2026-06-15 13:56:49] Otklyuchilsya 'semyon' (ID: 5).
+[2026-06-15 13:56:50] Otklyuchilsya 'merdanow ' (ID: 3).
+[2026-06-15 13:56:51] === Server ostanovlen ===

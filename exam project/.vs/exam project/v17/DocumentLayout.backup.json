@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hudaynazar\\source\\repos\\exam project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hudaynazar\\OneDrive\\Desktop\\\u0415xam Hasanov\\multiserver\\client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8080276B-4D68-4A24-8CC1-11097D942442}|exam project\\exam project.vcxproj|C:\\Users\\Hudaynazar\\source\\repos\\exam project\\exam project\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8080276B-4D68-4A24-8CC1-11097D942442}|exam project\\exam project.vcxproj|solutionrelative:exam project\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "client.cpp",
+              "DocumentMoniker": "C:\\Users\\Hudaynazar\\OneDrive\\Desktop\\\u0415xam Hasanov\\multiserver\\client.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Desktop\\\u0415xam Hasanov\\multiserver\\client.cpp",
+              "ToolTip": "C:\\Users\\Hudaynazar\\OneDrive\\Desktop\\\u0415xam Hasanov\\multiserver\\client.cpp",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Desktop\\\u0415xam Hasanov\\multiserver\\client.cpp",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-15T10:39:08.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "server.cpp",
+              "DocumentMoniker": "C:\\Users\\Hudaynazar\\source\\repos\\exam project\\exam project\\server.cpp",
+              "RelativeDocumentMoniker": "exam project\\server.cpp",
+              "ToolTip": "C:\\Users\\Hudaynazar\\source\\repos\\exam project\\exam project\\server.cpp",
+              "RelativeToolTip": "exam project\\server.cpp",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAAANEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-15T10:17:17.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28112</DEFECTCODE>
+    <DESCRIPTION>Обращение к переменной (g_running), доступ к которой возможен только через функцию с модификатором Interlocked, должно выполняться через такую функцию. См. строку 34: обращение к переменной, поддерживающей доступ только через функции семейства Interlocked*, каким-либо другим способом может приводить к проблемам безопасности.</DESCRIPTION>
+    <FUNCTION>recv_thread</FUNCTION>
+    <DECORATED>?recv_thread@@YAKPEAX@Z</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "WSAStartup".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Hudaynazar\source\repos\examproject_client\examproject_client\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28112</DEFECTCODE>
+    <DESCRIPTION>Обращение к переменной (g_running), доступ к которой возможен только через функцию с модификатором Interlocked, должно выполняться через такую функцию. См. строку 87: обращение к переменной, поддерживающей доступ только через функции семейства Interlocked*, каким-либо другим способом может приводить к проблемам безопасности.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
