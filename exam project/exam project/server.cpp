@@ -4,11 +4,16 @@
  * Kompilyaciya: cl server.cpp /Fe:server.exe ws2_32.lib /nologo
  */
 
-#pragma comment(lib, "ws2_32.lib")
-#include <winsock2.h>
-#include <windows.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <signal.h>
+#include <time.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 
 #define PORT         12345
 #define MAX_CLIENTS  5

@@ -4,12 +4,16 @@
  * Kompilyaciya: cl client.cpp /Fe:client.exe ws2_32.lib /nologo
  */
 
-#pragma comment(lib, "ws2_32.lib")
-#include <winsock2.h>
-#include <windows.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-#include <ws2tcpip.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <signal.h>
+#include <time.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 
 #define PORT     12345
 #define HOST     "127.0.0.1"

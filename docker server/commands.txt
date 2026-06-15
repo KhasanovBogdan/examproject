@@ -1,0 +1,19 @@
+# Komandy dlya sborki i zapuska
+# Project: TCP Server v1.0
+
+# 1. Sobrat' obraz
+docker build -t tcp_server:v1.0 .
+
+# 2. Zapustit' konteyner
+docker run -d -p 12345:12345 --name tcp_server_container tcp_server:v1.0
+
+# 3. Posmotret' logi
+docker logs -f tcp_server_container
+
+# 4. Ostanovit'
+docker stop tcp_server_container && docker rm tcp_server_container
+
+# 5. Zagruzit' na DockerHub
+docker login
+docker tag tcp_server:v1.0 YOUR_USERNAME/tcp_server:v1.0
+docker push YOUR_USERNAME/tcp_server:v1.0
